@@ -38,7 +38,7 @@ const App = () => {
    <div class="flex flex-col items-center justify-center">
      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl py-2 text-center">Powering Business Transformation</h1>
      <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 my-4 text-center">Our AI solution is designed to deliver real value to your enterprise. With our cutting-edge technology and industry expertise, you can harness the full potential of AI to improve operational efficiency, enhance customer experience, and accelerate innovation.</p>
-     <img src={Dashboard} class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center h-[400px]"/>
+     <img alt="XX" src={Dashboard} class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center h-[400px]"/>
    </div>
  </section>
 
@@ -97,17 +97,17 @@ const App = () => {
 
     <div class="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
       <div class="flex flex-col items-center space-y-2">
-        <img src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
+        <img alt="XYY" src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
         <p class="text-sm text-gray-500">The AI platform provided by Acme AI has been a game-changer for our organization. We have been able to unlock new insights from our data and leverage the power of AI to improve operational efficiency and customer experience.</p>
         <h2 class="font-medium">- John Doe, CEO</h2>
       </div>
       <div class="flex flex-col items-center space-y-2">
-      <img src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
+      <img alt="Yxx" src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
         <p class="text-sm text-gray-500">The AI platform provided by Acme AI has been a game-changer for our organization. We have been able to unlock new insights from our data and leverage the power of AI to improve operational efficiency and customer experience.</p>
         <h2>- John Novak, VP of sales</h2>
       </div>
       <div class="flex flex-col items-center space-y-2">
-      <img src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
+      <img alt="XY2" src={Dashboard} class="h-[120px] w-[120px] rounded-lg overflow-hidden"></img>
         <p class="text-sm text-gray-500">The AI platform provided by Acme AI has been a game-changer for our organization. We have been able to unlock new insights from our data and leverage the power of AI to improve operational efficiency and customer experience.</p>
         <h2>- Thomas Rockie, President</h2>
       </div>
