@@ -1,5 +1,5 @@
 import Dashboard from "./img/placeholder.svg";
-
+import Logo from "./img/logo.png";
 
 const App = () => {
 
@@ -7,34 +7,33 @@ const App = () => {
  return <div class="">
 
  <header class="py-4 md:py-6">
-   <div class=" px-4 md:px-6 flex items-center justify-between">
-     <h1>Logo</h1>
-     <nav class="flex space-x-2">
-       <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer" href="#">Features</h2>
-       <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer" href="#">References</h2>
-     </nav>
-
-
-     <div class="flex space-x-2 items-center">
-       <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer">Sign in</h2>
-       <h2 class="flex justify-center items-center rounded-md py-4 bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300">Get Started</h2>
+   <div class="px-4'' md:px-6 flex items-center justify-between">
+      <img alt="XYYy" src={Logo} class=""></img>
+     <div class="flex flex-row justify-center items-center space-x-4">
+        <nav class="flex space-x-4">
+          <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer" href="#">Features</h2>
+          <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer" href="#">References</h2>
+        </nav>
+        <h2 class="font-medium text-gray-500 hover:text-gray-900 transition-colors dark:text-gray-400 dark:hover:text-gray-50 cursor-pointer">Sign in</h2>
+        <h2 class="flex justify-center items-center rounded-md py-4 bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300">Get Started</h2>
      </div>
+     
    </div>
  </header> 
   
  <main class="">
 {/*Main top*/}
- <section class="mt-32">
+ <section class="mt-20">
    <div class="flex flex-col items-center justify-center">
      <p class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">AI for B2B</p>
      <h1 class="text-4xl font-bold tracking-tighter sm:text-6xl py-2">Unleash the Power of AI</h1>
-     <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 border-b border-gray-300 pb-10 my-4 text-center">Transform your business with our advanced AI platform. From predictive analytics to intelligent automation, we help you unlock new opportunities and drive innovation.</p>
+     <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 border-b border-gray-300 pb-20 my-4 text-center">Transform your business with our advanced AI platform. From predictive analytics to intelligent automation, we help you unlock new opportunities and drive innovation.</p>
    </div>
  </section>
 
 
  {/*Text+picture section*/}
- <section>
+ <section class="mt-12">
    <div class="flex flex-col items-center justify-center">
      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl py-2 text-center">Powering Business Transformation</h1>
      <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 my-4 text-center">Our AI solution is designed to deliver real value to your enterprise. With our cutting-edge technology and industry expertise, you can harness the full potential of AI to improve operational efficiency, enhance customer experience, and accelerate innovation.</p>
@@ -44,7 +43,7 @@ const App = () => {
 
 
  {/*Key features (grid) text section*/}
- <section class="my-10">
+ <section class="my-10 mt-10">
    <div class="flex flex-col items-center justify-center mt-10 border-t border-gray-300 pt-10">
      <p class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">Key Features</p>
      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl py-2">Innovation at Your Fingertips</h1>
@@ -85,8 +84,8 @@ const App = () => {
  </section>
 
  {/*Real results section*/}
- <section class="bg-gray-100 py-12 md:py-24 dark:bg-gray-800">
-  <div class="container space-y-12 px-4 md:px-6">
+ <section class="bg-gray-100 py-12 md:py-24">
+  <div class="space-y-12 px-4 md:px-">
     <div class="flex flex-col items-center justify-center space-y-4 text-center">
       <div class="flex flex-col items-center">
         <p class="inline-block rounded-lg bg-gray-900 px-3 text-sm font-semibold text-gray-50 py-1">Trusted by Industry Leaders</p>
@@ -114,6 +113,29 @@ const App = () => {
     </div>
   </div>
  </section>
+
+
+ <section class="py-12 md:py-24">
+  <div class=" flex flex-col items-center justify-center space-y-4 px-4 md:px-6">
+    <div class="text-center space-y-2">
+      <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl">Experience the Power of AI</h1>
+      <p class="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">Ready to take your business to the next level with AI? Contact us to schedule a demo or learn more about our AI solutions.</p>
+    </div>
+    <div class="my-4 w-full max-w-[400px] space-y-2">
+      <input
+        type="email"
+        placeholder="Enter your email"
+        class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-500"
+      />
+      <button
+        type="submit"
+        class="w-full px-4 py-2 bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/90 focus:outline-none focus:ring-offset-2"
+      >
+        Contact Sales
+      </button>
+    </div>
+  </div>
+</section>
 
 
 
