@@ -1,4 +1,3 @@
-import Dashboard from "./img/placeholder.svg";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Features from "./pages/Features";
 import Home from "./pages/Home";
