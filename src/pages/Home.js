@@ -1,21 +1,32 @@
 import Dashboard from "../img/placeholder.svg";
+import { Link } from "react-router-dom";
 
 const App = () => {
  return <div class="">
   
  <main className="">
 {/*Main top*/}
- <section className="mt-20">
+ <section className="mt-20 flex flex-col border-b border-gray-300 pb-16">
    <div className="flex flex-col items-center justify-center">
      <p className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">AI for B2B</p>
      <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl py-2">Unleash the Power of AI</h1>
-     <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed  border-b border-gray-300 pb-20 my-4 text-center">Transform your business with our advanced AI platform. From predictive analytics to intelligent automation, we help you unlock new opportunities and drive innovation.</p>
+     <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed   my-4 text-center">Transform your business with our advanced AI platform. From predictive analytics to intelligent automation, we help you unlock new opportunities and drive innovation.</p>
+    <div className="flex flex-row space-x-4 mt-8">
+      <a
+      className="px-8 py-[10px] bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/70 focus:outline-none focus:ring-offset-2" href="https://www.seznam.cz/">
+      Get started
+      </a>
+      <Link
+      className="px-6 py-[10px] text-black border border-black font-semibold rounded-md shadow-sm hover:bg-black/10 focus:outline-none focus:ring-offset-2" to="/Contact">
+      Book a demo
+      </Link>
+     </div>
    </div>
  </section>
 
 
  {/*Text+picture section*/}
- <section className="mt-12">
+ <section className="mt-8">
    <div className="flex flex-col items-center justify-center">
      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl py-2 text-center">Powering Business Transformation</h1>
      <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 my-4 text-center">Our AI solution is designed to deliver real value to your enterprise. With our cutting-edge technology and industry expertise, you can harness the full potential of AI to improve operational efficiency, enhance customer experience, and accelerate innovation.</p>
@@ -25,7 +36,7 @@ const App = () => {
 
 
  {/*Key features (grid) text section*/}
- <section className="my-10 mt-10">
+ <section className="my-10 mt-10 px-4">
    <div class="flex flex-col items-center justify-center mt-10 border-t border-gray-300 pt-10">
      <p className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">Key Features</p>
      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl py-2">Innovation at Your Fingertips</h1>
@@ -103,19 +114,10 @@ const App = () => {
       <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Experience the Power of AI</h1>
       <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">Ready to take your business to the next level with AI? Contact us to schedule a demo or learn more about our AI solutions.</p>
     </div>
-    <div className="my-4 w-full max-w-[400px] space-y-2">
-      <input
-        type="email"
-        placeholder="Enter your email"
-        className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-500"
-      />
-      <button
-        type="submit"
-        className="w-full px-4 py-2 bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/90 focus:outline-none focus:ring-offset-2"
-      >
-        Contact Sales
-      </button>
-    </div>
+    <a
+      className="px-8 py-[10px] bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/90 focus:outline-none focus:ring-offset-2" href="https://www.seznam.cz/">
+     Get started
+    </a>
   </div>
 </section>
 
