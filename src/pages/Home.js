@@ -1,7 +1,7 @@
 import Dashboard from "../img/placeholder.svg";
 import { Link } from "react-router-dom";
 
-const App = () => {
+const Home = () => {
  return <div class="">
   
  <main className="">
@@ -129,4 +129,4 @@ const App = () => {
 }
 
 
-export default App
+export default Home
