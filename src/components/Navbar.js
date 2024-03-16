@@ -12,8 +12,8 @@ const Navbar = () => {
           <Link className="font-medium text-gray-500 hover:text-gray-900 transition-colors cursor-pointer" href="#" to="/references">References</Link>
           <Link className="font-medium text-gray-500 hover:text-gray-900 transition-colors cursor-pointer" href="#" to="/contact">Contact</Link>
         </nav>
-        <a className="font-medium text-gray-500 hover:text-gray-900 transition-colors  cursor-pointer" to="/signin" href="https://startup-template-webpage.netlify.app/login">Sign in</a>
-        <a className="rounded-md py-4 bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90" to="webapp" href="https://startup-template-webpage.netlify.app/signup">Start free trial</a>
+        <a className="font-medium text-gray-500 hover:text-gray-900 transition-colors  cursor-pointer" href="https://startup-template-app.netlify.app/login">Sign in</a>
+        <a className="rounded-md py-4 bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90" href="https://startup-template-app.netlify.app/signup">Start free trial</a>
      </div>
      
    </div>
