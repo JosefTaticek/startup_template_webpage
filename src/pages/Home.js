@@ -115,7 +115,7 @@ const Home = () => {
       <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">Ready to take your business to the next level with AI? Contact us to schedule a demo or learn more about our AI solutions.</p>
     </div>
     <a
-      className="px-8 py-[10px] bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/90 focus:outline-none focus:ring-offset-2" href="https://www.seznam.cz/">
+      className="px-8 py-[10px] bg-black text-white font-semibold rounded-md shadow-sm hover:bg-black/90 focus:outline-none focus:ring-offset-2" href="https://startup-template-app.vercel.app/signup">
      Get started
     </a>
   </div>
