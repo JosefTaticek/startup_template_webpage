@@ -1,6 +1,6 @@
 # Try webpage live
 
-https://main--startup-template-webpage.netlify.app/
+https://startup-template-webpage.vercel.app/
 
 # Getting Started with Create React App
 
